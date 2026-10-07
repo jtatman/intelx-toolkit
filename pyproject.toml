@@ -1,0 +1,10 @@
+[project]
+name = "intelx-toolkit"
+version = "0.1.0"
+description = "Generic CLI for the Intelligence X API, scoped to what a free/community-tier key actually has credits for."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
+]
